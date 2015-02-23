@@ -1,0 +1,16 @@
+#ゲーム設定用ファイル
+#int update_time_interval_;//更新間隔msec(ゲームスピードの逆数)
+20
+#int puck_step_;//1更新でパックの進む距離(ピクセル数)
+9
+#int game_score_;//何点で1ゲームとするか
+5
+#入力モード(INPUT_RS232C = 1, INPUT_CPU_MASTER = 2, INPUT_CPU_RANDOM = 3)
+#int input_mode1_;//Player1の入力デバイスの種類
+1
+#int input_mode2_;//Player2の入力デバイスの種類
+1
+#int input_com_;//COMポートの番号
+4
+#double input_kando_;//センサ入力の感度(値が大きいほど大きく動く)
+1.75
